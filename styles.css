@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+}
+.card{
+  width:20%;
+  position: relative;
+  left:38rem;
+  top:10rem;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  padding-bottom: 2.8rem;
+  border-radius: 1rem;
+}
+img{
+  width:80%;
+  margin-top:2rem;
+border-radius: 1rem;
+}
+.title{
+  font-weight: 700;
+  font-size: 1.2rem;
+margin: 1rem 1.8rem 1rem 1.8rem;
+}
+.discription{
+  margin:1.5rem 1.8rem 0 1.8rem;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+.attribution{
+position: relative;
+top:15rem;
+left:1.8rem;
+}
+@media screen and (max-width: 376px) {
+  .card{
+width: 80%;
+position: relative;
+left: 10rem;
+
+}
+.attribution{
+  left:8rem;
+}
+
+}
